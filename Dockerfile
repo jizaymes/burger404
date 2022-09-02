@@ -1,4 +1,4 @@
 FROM httpd:latest
 
-#COPY src/ /var/www/html
+COPY src/ /usr/local/apache2/htdocs
 

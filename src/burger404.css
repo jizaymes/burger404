@@ -1,3 +1,5 @@
+/* Credit to <a href="https://github.com/genarocolusso">Genaro Colusso</a> for making <a href="https://codepen.io/genarocolusso/pen/XWbGMLp">this</a> burger animation. */
+
 .fundo{
   animation: scales 3s alternate  infinite;
   transform-origin: center;
@@ -15,11 +17,11 @@
 }
 
 .left-sparks{animation: left-sparks   4s  alternate  infinite;
-      transform-origin: 450px 468px;
+  transform-origin: 150px 156px;
 }
 
 .right-sparks{animation: left-sparks   4s  alternate  infinite;
-      transform-origin: 930px 450px;
+  transform-origin: 310px 150px;
 }
 
 .olhos{animation: olhos   2s  alternate  infinite;
@@ -55,7 +57,9 @@
 
 
 .main{
-  min-height: 600px;
+  zoom: 1.5;
+  -moz-transform: scale(1.5);
+  min-height: 500px;
   margin: 0px auto;
   width: auto;
   max-width: 2000px;
@@ -79,14 +83,22 @@
      fill: transparent;
     stroke-dashoffset:  -200;
   }
-   
-  
 }
 
+a:visited, a:link, a:hover {
+  font-family: sans-serif,serif,verdana;
+  font-size: 12px;
+  color: black;
+  text-decoration: none;
+
+}
 .footer {
-  text-align: center;
   position: fixed;
   bottom: 0;
+  text-align: center;
   font-family: sans-serif,serif,verdana;
-  font-size: 16px;
+  font-size: 12px;
+  color: black;
+  left: 0;
+  right: 0;
 }
